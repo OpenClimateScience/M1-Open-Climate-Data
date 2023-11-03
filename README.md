@@ -8,3 +8,9 @@ The first module of our [open climate-science curriculum](https://openclimatesci
 - Understand how climate data from reanalysis datasets, General Circulation Models, and Earth System Models are generated and how these models differ.
 - Know where different climate variables (e.g., precipitation, temperature) can be obtained at the appropriate spatial and temporal scales.
 - Demonstrate the use of multiple climate variables from different climate datasets.
+
+
+Acknowledgements
+----------------
+
+This curriculum was enabled by a grant from NASA's Transition to Open Science (TOPS) Training program (80NSSC23K0864).
