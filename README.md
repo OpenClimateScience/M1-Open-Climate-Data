@@ -10,6 +10,20 @@ The first module of our [open climate-science curriculum](https://openclimatesci
 - Demonstrate the use of multiple climate variables from different climate datasets.
 
 
+Getting Started
+---------------
+
+You can run the notebooks in this repository using [Github Codespaces](https://docs.github.com/en/codespaces/overview) or as [a VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers). Once your container is running, launch Jupyter Notebook by:
+
+```sh
+# Create your own password when prompted
+jupyter server password
+
+# Then, launch Jupyter Notebook; enter your password when prompted
+jupyter notebook
+```
+
+
 Acknowledgements
 ----------------
 

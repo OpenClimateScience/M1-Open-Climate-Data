@@ -1,4 +1,7 @@
+.vscode
+
 virtualenv.sh
 notebooks/.ipynb_checkpoints
 
 data_raw/
+

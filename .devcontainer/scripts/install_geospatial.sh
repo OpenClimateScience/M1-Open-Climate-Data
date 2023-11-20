@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Modified from original in rocker2 project; see licensing information here:
 #   https://github.com/rocker-org/rocker-versioned2/blob/master/LICENSE
@@ -42,4 +42,5 @@ apt_install \
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
-rm -r /tmp/downloaded_packages
+
+pip3 install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
