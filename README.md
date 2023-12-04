@@ -10,6 +10,15 @@ The first module of our [open climate-science curriculum](https://openclimatesci
 - Demonstrate the use of multiple climate variables from different climate datasets.
 
 
+Contents
+---------------
+
+1. [Sources of Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/01_Sources_of_Climate_Data.ipynb)
+2. [Introduction to NASA Earthdata Search](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
+3. [Climate Re-analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/03_Climate_Re-analysis_Data.ipynb)
+4. [Reading MERRA-2 Data from netCDF4 Files](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/04_Reading_MERRA2_Data_from_netCDF4_Files.ipynb)
+
+
 Getting Started
 ---------------
 
