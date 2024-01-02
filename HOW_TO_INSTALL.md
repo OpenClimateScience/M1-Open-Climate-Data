@@ -64,3 +64,33 @@ You can start Jupyter Notebook from the Miniforge Prompt by typing the following
 ```
 python -m notebook
 ```
+
+
+GNU Linux or Mac OS X
+---------------------
+
+Python dependencies can be installed from the command line using `pip`:
+
+```sh
+pip install -r REQUIREMENTS
+```
+
+On some systems, it may be necessary to install the GDAL Python bindings first and to make sure the version matches that of the GDAL C library:
+
+```sh
+pip install GDAL==$(gdal-config --version)
+```
+
+And if you are installing GDAL in a virtual environment on Linux, you may need to indicate explicitly that you want to build a wheel for the module:
+
+```sh
+pip install GDAL==$(gdal-config --version) --global-option=build_ext --global-option="-I/usr/include/gdal" --no-cache-dir
+```
+
+### Starting Jupyter Notebook
+
+**To launch Jupyter Notebook,** type the following at the command line, making sure that your current working directory is where you want the Jupyter file tree to start:
+
+```sh
+jupyter notebook
+```
