@@ -17,6 +17,10 @@ Contents
 2. [Introduction to NASA Earthdata Search](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
 3. [Climate Re-analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/03_Climate_Re-analysis_Data.ipynb)
 4. [Reading MERRA-2 Gridded Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/04_Reading_MERRA2_Gridded_Climate_Data.ipynb)
+5. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/05_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
+6. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/06_Earth_Observation_Data.ipynb)
+7. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/07_Climate_Models.ipynb)
+8. [Case Study: 2017 Northern Plains Flash Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/CaseStudy_2017_Northern_Plains_Flash_Drought.ipynb)
 
 
 Getting Started
