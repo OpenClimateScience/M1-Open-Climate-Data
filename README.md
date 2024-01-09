@@ -20,7 +20,8 @@ Contents
 5. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/05_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
 6. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/06_Earth_Observation_Data.ipynb)
 7. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/07_Climate_Models.ipynb)
-8. [Case Study: 2017 Northern Plains Flash Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/CaseStudy_2017_Northern_Plains_Flash_Drought.ipynb)
+8. [Using Re-Analysis Data to Study Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/08_Using_Re-analysis_Data_to_Study_Drought.ipynb)
+9. [Using NASA Earth Observations](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/09_Using_NASA_Earth_Observations.ipynb)
 
 
 Getting Started
