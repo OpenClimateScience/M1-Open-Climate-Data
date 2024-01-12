@@ -40,6 +40,20 @@ jupyter notebook
 ```
 
 
+Learning Outcomes
+-----------------
+
+This course covers the following [Core Competencies in Computational Data Science:](https://github.com/OpenClimateScience/Core-Competencies/blob/master/ScienceCore-Competencies.md)
+
+- Raw data are unmodified and kept separate from any processed derivatives or analysis results. (CC1.1)
+- A project's files are organized hierarchically and semantically. Raw data, processed data, code, and outputs are stored in separate folders. (CC1.2)
+- Creates appropriate metadata for all datasets, including, but not limited to: the creation date, primary data sources, fill values or valid ranges, and units. (CC1.9)
+- Understands multidimensional arrays and their use for representing datasets structured by space, time, and multiple variables. (CC2.3)
+- Familiar with the different types of structured datasets used in scientific applications, including spatial datasets (raster and vector) and hierarchical datasets (e.g., HDF5, netCDF4); how to read them; and how to create self-documenting data files. (CC2.8)
+- Chooses color scales that are perceptually linear and colorblind-friendly. Understands how visual scales relate to different types of quantitative and qualitative data. (CC3.10)
+- Computational workflows are documented with both in-line comments and external documentation (a README or API documentation). (CC4.3)
+
+
 Acknowledgements
 ----------------
 
