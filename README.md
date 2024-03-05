@@ -14,14 +14,13 @@ Contents
 ---------------
 
 1. [Sources of Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/01_Sources_of_Climate_Data.ipynb)
-2. [Introduction to NASA Earthdata Search](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
-3. [Climate Re-analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/03_Climate_Re-analysis_Data.ipynb)
-4. [Reading MERRA-2 Gridded Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/04_Reading_MERRA2_Gridded_Climate_Data.ipynb)
-5. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/05_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
-6. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/06_Earth_Observation_Data.ipynb)
-7. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/07_Climate_Models.ipynb)
-8. [Using Re-Analysis Data to Study Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/08_Using_Re-analysis_Data_to_Study_Drought.ipynb)
-9. [Using NASA Earth Observations](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/09_Using_NASA_Earth_Observations.ipynb)
+2. [Introduction to NASA Earthdata Search and Re-Analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
+3. [Reading MERRA-2 Gridded Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/03_Reading_MERRA2_Gridded_Climate_Data.ipynb)
+4. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/04_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
+5. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/05_Earth_Observation_Data.ipynb)
+6. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/06_Climate_Models.ipynb)
+7. [Using Re-Analysis Data to Study Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/07_Using_Re-analysis_Data_to_Study_Drought.ipynb)
+8. [Using NASA Earth Observations](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/08_Using_NASA_Earth_Observations.ipynb)
 
 
 Getting Started
