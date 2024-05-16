@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/678572794.svg)](https://zenodo.org/doi/10.5281/zenodo.11204778)
+
 M1: Open Climate Data
 =====================
 
