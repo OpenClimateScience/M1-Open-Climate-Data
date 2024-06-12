@@ -15,20 +15,20 @@ The first module of our [open climate-science curriculum](https://openclimatesci
 Contents
 ---------------
 
-1. [Sources of Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/01_Sources_of_Climate_Data.ipynb)
-2. [Introduction to NASA Earthdata Search and Re-Analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
-3. [Reading MERRA-2 Gridded Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/03_Reading_MERRA2_Gridded_Climate_Data.ipynb)
-4. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/04_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
-5. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/05_Earth_Observation_Data.ipynb)
-6. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/06_Climate_Models.ipynb)
-7. [Using Re-Analysis Data to Study Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/07_Using_Re-analysis_Data_to_Study_Drought.ipynb)
-8. [Using NASA Earth Observations](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/notebooks/08_Using_NASA_Earth_Observations.ipynb)
+1. [Sources of Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/01_Sources_of_Climate_Data.ipynb)
+2. [Introduction to NASA Earthdata Search and Re-Analysis Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/02_Intro_to_NASA_Earthdata_Search.ipynb)
+3. [Reading MERRA-2 Gridded Climate Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/03_Reading_MERRA2_Gridded_Climate_Data.ipynb)
+4. [Accessing MERRA-2 Data in the Cloud](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/04_Accessing_MERRA2_Data_in_the_Cloud.ipynb)
+5. [Introduction to Earth Observation Data](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/05_Earth_Observation_Data.ipynb)
+6. [Introduction to Climate Models](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/06_Climate_Models.ipynb)
+7. [Using Re-Analysis Data to Study Drought](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/07_Using_Re-analysis_Data_to_Study_Drought.ipynb)
+8. [Using NASA Earth Observations](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/notebooks/08_Using_NASA_Earth_Observations.ipynb)
 
 
 Getting Started
 ---------------
 
-[See our installation guide here.](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/master/HOW_TO_INSTALL.md)
+[See our installation guide here.](https://github.com/OpenClimateScience/M1-Open-Climate-Data/blob/main/HOW_TO_INSTALL.md)
 
 You can run the notebooks in this repository using [Github Codespaces](https://docs.github.com/en/codespaces/overview) or as [a VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers). Once your container is running, launch Jupyter Notebook by:
 
@@ -44,7 +44,7 @@ jupyter notebook
 Learning Outcomes
 -----------------
 
-This course covers the following [Core Competencies in Computational Data Science:](https://github.com/OpenClimateScience/Core-Competencies/blob/master/ScienceCore-Competencies.md)
+This course covers the following [Core Competencies in Computational Data Science:](https://github.com/OpenClimateScience/Core-Competencies/blob/main/ScienceCore-Competencies.md)
 
 - Raw data are unmodified and kept separate from any processed derivatives or analysis results. (CC1.1)
 - A project's files are organized hierarchically and semantically. Raw data, processed data, code, and outputs are stored in separate folders. (CC1.2)
