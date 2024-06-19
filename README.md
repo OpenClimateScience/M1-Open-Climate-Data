@@ -55,7 +55,17 @@ This course covers the following [Core Competencies in Computational Data Scienc
 - Computational workflows are documented with both in-line comments and external documentation (a README or API documentation). (CC4.3)
 
 
+Climate Datasets Used
+---------------------
+
+- Daily air temperatures from [the NASA Global Modeling and Assimilation Office's MERRA-2 re-analysis dataset](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/)
+- Daily precipitation totals from [NASA IMERG-Final](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_06/summary)
+- Evapotranspiration, radiation, and soil moisture data from [NASA's North American Land Data Assimilation System (NLDAS) re-analysis dataset](https://disc.gsfc.nasa.gov/datasets/NLDAS_NOAH0125_M_2.0/summary?keywords=NLDAS)
+- Air temperature, pressure, and humidity, from [NASA's NLDAS forcing data](https://disc.gsfc.nasa.gov/datasets/NLDAS_FORA0125_M_2.0/summary?keywords=NLDAS)
+- Soil moisture from [the NASA Soil Moisture Active Passive mission](https://nsidc.org/data/spl3smp/versions/8)
+
+
 Acknowledgements
 ----------------
 
-This curriculum was enabled by a grant from NASA's Transition to Open Science (TOPS) Training program (80NSSC23K0864).
+This curriculum was enabled by a grant from NASA's Transition to Open Science (TOPS) Training program (80NSSC23K0864), part of [NASA's TOPS Program](https://nasa.github.io/Transform-to-Open-Science/)
