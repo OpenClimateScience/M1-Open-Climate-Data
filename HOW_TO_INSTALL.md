@@ -51,6 +51,8 @@ python -m notebook
 
 We do not recommend using `conda` or `miniconda`. If you'd like to use a different Python environment than the one provided by OSGeo4W, recommend `mamba`, installed through `mambaforge`.
 
+**On Windows:**
+
 - Download and run the `mambaforge` installed, [from here.](https://github.com/conda-forge/miniforge#mambaforge)
 - Launch the **Miniforge Prompt** by typing "miniforge" from the Start or search menu.
 - At the Miniforge Prompt's command line, type the following, hitting ENTER after each line.
@@ -59,6 +61,21 @@ We do not recommend using `conda` or `miniconda`. If you'd like to use a differe
 mamba install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
 pip install --force pillow
 ```
+
+**On Mac OS X:**
+
+- Open a new **Terminal** window.
+- Install `mamba` ("miniforge") by [following the instructions here.](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-mac-os--linux)
+- If `mamba` ("miniforge") was installed to your Home directory, e.g., `/Users/username/miniforge3`, where `username` is your username, then you can *initialize* `mamba` with:
+```
+/Users/username/miniforge3/bin/mamba init
+```
+- Then, anytime you want to use or install Python modules, open a **Terminal** window and type:
+```
+mamba activate
+```
+
+**On Windows or Mac OS X:**
 
 You can start Jupyter Notebook from the Miniforge Prompt by typing the following and hitting ENTER:
 ```
