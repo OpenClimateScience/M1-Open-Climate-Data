@@ -3,6 +3,10 @@ Installation and Setup Instructions
 
 Follow the instructions for your operating system, below.
 
+- [Windows 10](#Windows-10)
+- [Mac OS X](#GNU-Linux-or-Mac-OS-X)
+- [GNU Linux](#GNU-Linux-or-Mac-OS-X)
+
 
 Windows 10
 -------------------
@@ -16,21 +20,20 @@ whoami
 
 The result of this command might be something like `organization\username`; your Windows username, in this example, would be `username`.
 
-**Now, let's install OSGeo4W.**
+**Next, we need to install Python.**
 
-- Go to [https://trac.osgeo.org/osgeo4w/](https://trac.osgeo.org/osgeo4w/) and "Download the OSGeo4W network installer."
-- Run the installer, choosing "Express" install and choose to also install GDAL.
+- [Download the latest stable release for Windows.](https://www.python.org/downloads/windows/)
 
-**Next, you need to install the Python libraries we will be using.**
+**Then, you need to install the Python libraries we will be using.**
 
-- Start the OSGeo4W Shell by typing "OSGeo4W Shell" in the Start or search menu.
+- Open the Windows PowerShell; from the **"Start"** menu, you can start typing "PowerShell" and click on the application icon when it appears.
 - A command-line interface should appear. It should look *similar* to the screenshot below, although the text in your window may be slightly different.
 
 ![](./images/capture_OSGeo4W.png)
 
 - Type the following and hit ENTER to install the necessary Python libraries:
 ```
-pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
+pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy pyproj dask
 ```
 
 
@@ -47,9 +50,9 @@ python -m notebook
 ```
 
 
-### Alternatives to OSGeo4W
+### Alternatives to `pip`
 
-We do not recommend using `conda` or `miniconda`. If you'd like to use a different Python environment than the one provided by OSGeo4W, recommend `mamba`, installed through `mambaforge`.
+We do not recommend using `conda` or `miniconda`. If you'd like to use a different Python package manager, we recommend `mamba`, installed through `mambaforge`.
 
 **On Windows:**
 
@@ -58,7 +61,7 @@ We do not recommend using `conda` or `miniconda`. If you'd like to use a differe
 - At the Miniforge Prompt's command line, type the following, hitting ENTER after each line.
 
 ```
-mamba install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
+mamba install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy pyproj dask
 pip install --force pillow
 ```
 
@@ -86,23 +89,12 @@ python -m notebook
 GNU Linux or Mac OS X
 ---------------------
 
-Python dependencies can be installed from the command line using `pip`:
+Python and `pip` should already be installed. From the Mac OS X or Linux **Terminal,** you can install Python dependencies by:
 
 ```sh
-pip install -r REQUIREMENTS
+pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
 ```
 
-On some systems, it may be necessary to install the GDAL Python bindings first and to make sure the version matches that of the GDAL C library:
-
-```sh
-pip install GDAL==$(gdal-config --version)
-```
-
-And if you are installing GDAL in a virtual environment on Linux, you may need to indicate explicitly that you want to build a wheel for the module:
-
-```sh
-pip install GDAL==$(gdal-config --version) --global-option=build_ext --global-option="-I/usr/include/gdal" --no-cache-dir
-```
 
 ### Starting Jupyter Notebook
 
