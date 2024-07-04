@@ -33,7 +33,7 @@ The result of this command might be something like `organization\username`; your
 
 - Type the following and hit ENTER to install the necessary Python libraries:
 ```
-pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy pyproj dask
+pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy dask
 ```
 
 
@@ -50,11 +50,9 @@ python -m notebook
 ```
 
 
-### Alternatives to `pip`
+### Alternatives to `pip` on Windows
 
 We do not recommend using `conda` or `miniconda`. If you'd like to use a different Python package manager, we recommend `mamba`, installed through `mambaforge`.
-
-**On Windows:**
 
 - Download and run the `mambaforge` installed, [from here.](https://github.com/conda-forge/miniforge#mambaforge)
 - Launch the **Miniforge Prompt** by typing "miniforge" from the Start or search menu.
@@ -64,6 +62,28 @@ We do not recommend using `conda` or `miniconda`. If you'd like to use a differe
 mamba install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy pyproj dask
 pip install --force pillow
 ```
+
+
+GNU Linux or Mac OS X
+---------------------
+
+Python and `pip` should already be installed. From the Mac OS X or Linux **Terminal,** you can install Python dependencies by:
+
+```sh
+pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy dask
+```
+
+
+### Starting Jupyter Notebook
+
+**To launch Jupyter Notebook,** type the following at the command line, making sure that your current working directory is where you want the Jupyter file tree to start:
+
+```sh
+jupyter notebook
+```
+
+
+### Alternatives to `pip` on Mac OS X
 
 **On Mac OS X:**
 
@@ -76,30 +96,4 @@ pip install --force pillow
 - Then, anytime you want to use or install Python modules, open a **Terminal** window and type:
 ```
 mamba activate
-```
-
-**On Windows or Mac OS X:**
-
-You can start Jupyter Notebook from the Miniforge Prompt by typing the following and hitting ENTER:
-```
-python -m notebook
-```
-
-
-GNU Linux or Mac OS X
----------------------
-
-Python and `pip` should already be installed. From the Mac OS X or Linux **Terminal,** you can install Python dependencies by:
-
-```sh
-pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy
-```
-
-
-### Starting Jupyter Notebook
-
-**To launch Jupyter Notebook,** type the following at the command line, making sure that your current working directory is where you want the Jupyter file tree to start:
-
-```sh
-jupyter notebook
 ```
