@@ -3,12 +3,12 @@ Installation and Setup Instructions
 
 Follow the instructions for your operating system, below.
 
-- [Windows 10](#Windows-10)
+- [Windows 10+](#Windows)
 - [Mac OS X](#GNU-Linux-or-Mac-OS-X)
 - [GNU Linux](#GNU-Linux-or-Mac-OS-X)
 
 
-Windows 10
+Windows
 -------------------
 
 **First, make sure you know your Windows username.**
@@ -54,7 +54,7 @@ python -m notebook
 
 We do not recommend using `conda` or `miniconda`. If you'd like to use a different Python package manager, we recommend `mamba`, installed through `mambaforge`.
 
-- Download and run the `mambaforge` installed, [from here.](https://github.com/conda-forge/miniforge#mambaforge)
+- Download and run the `mambaforge` installer, [from here.](https://github.com/conda-forge/miniforge#mambaforge)
 - Launch the **Miniforge Prompt** by typing "miniforge" from the Start or search menu.
 - At the Miniforge Prompt's command line, type the following, hitting ENTER after each line.
 
