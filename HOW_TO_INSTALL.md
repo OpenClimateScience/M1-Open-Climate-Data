@@ -97,3 +97,7 @@ jupyter notebook
 ```
 mamba activate
 ```
+- If you prefer that the `(base)` environment is not initialized by default, every time you open a shell, then change this configuration setting (actually a command to `miniforge`, even though it begins with `conda`):
+```sh
+conda config --set auto_activate_base false
+```
