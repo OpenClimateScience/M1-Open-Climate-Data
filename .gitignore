@@ -1,7 +1,7 @@
 .vscode
 
 virtualenv.sh
-notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
 
 notebooks/data
 data_raw/

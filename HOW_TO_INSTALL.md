@@ -33,7 +33,7 @@ The result of this command might be something like `organization\username`; your
 
 - Type the following and hit ENTER to install the necessary Python libraries:
 ```
-pip install numpy scipy notebook xarray earthaccess h5py h5netcdf cartopy dask
+pip install numpy scipy notebook pandas xarray earthaccess h5py h5netcdf cartopy dask
 ```
 
 
